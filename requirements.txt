@@ -2,4 +2,3 @@ python-dotenv
 argparse
 pandas
 scikit-learn
-loguru
