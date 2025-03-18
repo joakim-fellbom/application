@@ -8,6 +8,7 @@ import argparse
 from loguru import logger
 
 import pathlib
+from joblib import dump
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -73,6 +74,7 @@ pipe = create_pipeline(
 
 pipe.fit(X_train, y_train)
 
+dump(pipe, 'model.joblib')
 
 # Evaluate the model
 score, matrix = evaluate_model(pipe, X_test, y_test)
