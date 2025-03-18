@@ -1,0 +1,6 @@
+2025-03-04 09:15:41,140 [WARNING] API token has not been configured properly
+2025-03-04 09:15:41,246 [INFO] 73.3% de bonnes réponses sur les données de test pour validation
+2025-03-04 09:15:41,246 [INFO] --------------------
+2025-03-04 09:15:41,246 [INFO] matrice de confusion
+2025-03-04 09:15:41,246 [INFO] [[48 11]
+ [13 18]]
